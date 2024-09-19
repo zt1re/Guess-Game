@@ -1,0 +1,136 @@
+body {
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.header {
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.seperator {
+    border-top: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    background-color: blue;
+    position: absolute;
+    padding: 0.5em 1em;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 1px;
+}
+
+.check-and-score {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    width: 80px;
+    height: 30px;
+    border: 2px solid blue;
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    font-size: 8px;
+    background-color: blue;
+    padding: 0.5em 1em;
+    border-radius: 1px;
+    color: inherit;
+}
+
+.section2 {
+    font-size: 10px;
+}
+
+@media (min-width: 640px) {
+    .header {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin: 90px auto;
+    }
+
+    .input {
+        font-size: 20px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .input {
+        width: 110px;
+        height: 40px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .section2 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 950px) {
+    .header {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 32px;
+        margin: 110px auto;
+    }
+
+    .input {
+        font-size: 32px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .input {
+        width: 150px;
+        height: 60px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .section2 {
+        font-size: 18px;
+    }
+}
